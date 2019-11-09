@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <title>Friend Finder | Survey</title>
+  </head> 
+  <body style="
+    height: 2200px;
+    background: linear-gradient(120deg, #1b92a9 0%, #000046 95%);">
+      <div class="container">
+            <div class="jumbotron">
+                    <h1 class="text-center"><span class="fas fa-dice-d20" style="color: #1b92a9;"></span> Friend Finder <span class="fas fa-dice-d20" style="color: #1b92a9;"></span></h1>
+                </div>
+
+                <div class="card">
+                        <div class="card-header">
+                          <b style="color: #1b92a9">Personal Information</b>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                              <label for="user-name">First and Last name</label>
+                              <input type="text" class="form-control" id="user-name" placeholder="(Required)">
+                            </div>
+                            <div class="form-group">
+                              <label for="user-img">Link to photo of your choosing</label>
+                              <input type="text" class="form-control" id="user-img" placeholder="(Required)">
+                            </div>
+                        </div>
+                      </div>
+                      <br>
+
+                <div class="card">
+                    <div class="card-header">
+                        <b style="color: #1b92a9">The hard hitting questions</b>
+                    </div>
+                    <div class="card-body">
+                        <h6><b style="color: #4c0979">Question 1</b></h6>
+                        <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+                        <select class="chosen-select" id=q1>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+
+                        <hr>
+
+                        <h6><b style="color: #4c0979">Question 2</b></h6>
+                        <p>Generally speaking, you rely on your experience more than your imagination.</p>
+                        <select class="chosen-select" id=q2>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+
+                        <hr>
+
+                        <h6><b style="color: #4c0979">Question 3</b></h6>
+                        <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                        <select class="chosen-select" id=q3>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+
+                        <hr>
+
+                        <h6><b style="color: #4c0979">Question 4</b></h6>
+                        <p>You rarely do something out of sheer curiosity.</p>
+                        <select class="chosen-select" id=q4>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+
+                        <hr>
+
+                        <h6><b style="color: #4c0979">Question 5</b></h6>
+                        <p>People can rarely upset you.</p>
+                        <select class="chosen-select" id=q5>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+
+                        <hr>
+
+                        <h6><b style="color: #4c0979">Question 6</b></h6>
+                        <p>It is often difficult for you to relate to other peoples feelings.</p>
+                        <select class="chosen-select" id=q6>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+
+                        <hr>
+
+                        <h6><b style="color: #4c0979">Question 7</b></h6>
+                        <p>In a discussion, truth should be more imprtant than peoples sensitivities.</p>
+                        <select class="chosen-select" id=q7>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+
+                        <hr>
+
+                        <h6><b style="color: #4c0979">Question 8</b></h6>
+                        <p>You rarely get carried away by fantasies and ideas.</p>
+                        <select class="chosen-select" id=q8>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+                        
+                        <hr>
+
+                        <h6><b style="color: #4c0979">Question 9</b></h6>
+                        <p>You think everyones views should be respected regardless of whether they are supported by facts or not.</p>
+                        <select class="chosen-select" id=q9>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+
+                        <hr>
+
+                        <h6><b style="color: #4c0979">Question 10</b></h6>
+                        <p>You feel more engergetic after spending time with a group of people.</p>
+                        <select class="chosen-select" id=q10>
+                            <option value=""></option>
+                            <option value="1">1 (Hard no)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Fur Sure)</option>
+                        </select>
+                    </div>
+                </div>
+               
+
+                <button id="submitBtn" type="submit" class="btn btn-info btn-lg mt-2 mb-2"><i class="fas fa-check"></i> Submit</button>
+
+
+                <div class="modal fade" id="results" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+
+                      <div class="modal-header">
+                        <h3 class="modal-title text-center">This is your best Match!</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+
+                      <div class="modal-body">
+                        <h3 id="matchName" style="color: #1b92a9;"></h3>
+                        <img id="matchImg" src="" alt="No image found :(" style="max-width: 350px;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                
+
+            
+                
+
+                
+
+        <footer class="footer">
+            <p><a href="/api/friends" style="color: darkgrey;">API Matches List</a> | <a href="https://github.com/seyleigh/BootcampTinder" target="_blank" style="color: darkgrey;">GitHub Repo</a> | <a href="/" style="color: darkgrey;">Home</a></p>
+        </footer>
+      </div>
+
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+
+      let allInputsFilled;
+
+      $(document).ready(function(){
+        $("#submitBtn").on("click", function(){
+          checkComplete(function(){
+            if (allInputsFilled){
+              collectInput();
+            } else {
+              swal({
+              title: "Sorry!",
+              text: "You need to fill out all the values first",
+              icon: "error",
+              });
+            }
+          });
+        });
+      });
+
+      function checkComplete(callback) {
+        let answeredQs;
+        $(".chosen-select").each(function(){
+          if ($(this).val() === "") {
+            answeredQs = false;
+          }
+        })
+
+        .promise().done(function(){
+          if(answeredQs == false || $("#user-name").val().trim() =="" || $("#user-img").val().trim() == ""){
+            allInputsFilled = false;
+          } else {
+            allInputsFilled = true;
+          }
+          callback();
+        });
+      }
+
+      function collectInput(){
+        let newMatch = {
+          name: $("#user-name").val().trim(),
+          photo: $("#user-img").val().trim(),
+          scores: []
+        };
+
+        let scoresArr = [];
+        $('.chosen-select').each(function(){
+          scoresArr.push(parseInt($(this).val()));
+        })
+
+        .promise().done(function(){
+          newMatch.scores = scoresArr;
+
+          let currentURL = window.location.origin;
+          $.post(currentURL + "/api/friends", newMatch, function(data){
+            $("#matchName").text(data.name);
+            $("#matchImg").attr('src', data.photo);
+            $("#results").modal('toggle');
+          });
+        });
+      }
+
+    </script>
+  </body>
+</html>
