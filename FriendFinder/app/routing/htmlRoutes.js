@@ -5,7 +5,7 @@
 let chalk = require("chalk");
 let path = require("path");
 
-console.log(chalk.red("HTML route connected successfully"));
+console.log(chalk.red("HTML route connected"));
 
 function htmlRoute(app) {
     app.get("/survey", function(req, res){

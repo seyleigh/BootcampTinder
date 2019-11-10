@@ -4,7 +4,7 @@
 let chalk = require("chalk");
 
 
-console.log(chalk.cyan("API route connected successfully"));
+console.log(chalk.cyan("API route connected"));
 
     
 
